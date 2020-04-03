@@ -1,0 +1,1216 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: unserial39x13.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "unserial39x13.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "unserial39x13"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : unserial39x13
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Windows\System32\Ser39-13\unserial39x13.v" into library work
+Parsing module <unserial39x13>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <unserial39x13>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <unserial39x13>.
+    Related source file is "C:\Windows\System32\Ser39-13\unserial39x13.v".
+        in = 39
+        out = 13
+    Found 32-bit register for signal <start>.
+    Found 1-bit register for signal <data<506>>.
+    Found 1-bit register for signal <data<505>>.
+    Found 1-bit register for signal <data<504>>.
+    Found 1-bit register for signal <data<503>>.
+    Found 1-bit register for signal <data<502>>.
+    Found 1-bit register for signal <data<501>>.
+    Found 1-bit register for signal <data<500>>.
+    Found 1-bit register for signal <data<499>>.
+    Found 1-bit register for signal <data<498>>.
+    Found 1-bit register for signal <data<497>>.
+    Found 1-bit register for signal <data<496>>.
+    Found 1-bit register for signal <data<495>>.
+    Found 1-bit register for signal <data<494>>.
+    Found 1-bit register for signal <data<493>>.
+    Found 1-bit register for signal <data<492>>.
+    Found 1-bit register for signal <data<491>>.
+    Found 1-bit register for signal <data<490>>.
+    Found 1-bit register for signal <data<489>>.
+    Found 1-bit register for signal <data<488>>.
+    Found 1-bit register for signal <data<487>>.
+    Found 1-bit register for signal <data<486>>.
+    Found 1-bit register for signal <data<485>>.
+    Found 1-bit register for signal <data<484>>.
+    Found 1-bit register for signal <data<483>>.
+    Found 1-bit register for signal <data<482>>.
+    Found 1-bit register for signal <data<481>>.
+    Found 1-bit register for signal <data<480>>.
+    Found 1-bit register for signal <data<479>>.
+    Found 1-bit register for signal <data<478>>.
+    Found 1-bit register for signal <data<477>>.
+    Found 1-bit register for signal <data<476>>.
+    Found 1-bit register for signal <data<475>>.
+    Found 1-bit register for signal <data<474>>.
+    Found 1-bit register for signal <data<473>>.
+    Found 1-bit register for signal <data<472>>.
+    Found 1-bit register for signal <data<471>>.
+    Found 1-bit register for signal <data<470>>.
+    Found 1-bit register for signal <data<469>>.
+    Found 1-bit register for signal <data<468>>.
+    Found 1-bit register for signal <data<467>>.
+    Found 1-bit register for signal <data<466>>.
+    Found 1-bit register for signal <data<465>>.
+    Found 1-bit register for signal <data<464>>.
+    Found 1-bit register for signal <data<463>>.
+    Found 1-bit register for signal <data<462>>.
+    Found 1-bit register for signal <data<461>>.
+    Found 1-bit register for signal <data<460>>.
+    Found 1-bit register for signal <data<459>>.
+    Found 1-bit register for signal <data<458>>.
+    Found 1-bit register for signal <data<457>>.
+    Found 1-bit register for signal <data<456>>.
+    Found 1-bit register for signal <data<455>>.
+    Found 1-bit register for signal <data<454>>.
+    Found 1-bit register for signal <data<453>>.
+    Found 1-bit register for signal <data<452>>.
+    Found 1-bit register for signal <data<451>>.
+    Found 1-bit register for signal <data<450>>.
+    Found 1-bit register for signal <data<449>>.
+    Found 1-bit register for signal <data<448>>.
+    Found 1-bit register for signal <data<447>>.
+    Found 1-bit register for signal <data<446>>.
+    Found 1-bit register for signal <data<445>>.
+    Found 1-bit register for signal <data<444>>.
+    Found 1-bit register for signal <data<443>>.
+    Found 1-bit register for signal <data<442>>.
+    Found 1-bit register for signal <data<441>>.
+    Found 1-bit register for signal <data<440>>.
+    Found 1-bit register for signal <data<439>>.
+    Found 1-bit register for signal <data<438>>.
+    Found 1-bit register for signal <data<437>>.
+    Found 1-bit register for signal <data<436>>.
+    Found 1-bit register for signal <data<435>>.
+    Found 1-bit register for signal <data<434>>.
+    Found 1-bit register for signal <data<433>>.
+    Found 1-bit register for signal <data<432>>.
+    Found 1-bit register for signal <data<431>>.
+    Found 1-bit register for signal <data<430>>.
+    Found 1-bit register for signal <data<429>>.
+    Found 1-bit register for signal <data<428>>.
+    Found 1-bit register for signal <data<427>>.
+    Found 1-bit register for signal <data<426>>.
+    Found 1-bit register for signal <data<425>>.
+    Found 1-bit register for signal <data<424>>.
+    Found 1-bit register for signal <data<423>>.
+    Found 1-bit register for signal <data<422>>.
+    Found 1-bit register for signal <data<421>>.
+    Found 1-bit register for signal <data<420>>.
+    Found 1-bit register for signal <data<419>>.
+    Found 1-bit register for signal <data<418>>.
+    Found 1-bit register for signal <data<417>>.
+    Found 1-bit register for signal <data<416>>.
+    Found 1-bit register for signal <data<415>>.
+    Found 1-bit register for signal <data<414>>.
+    Found 1-bit register for signal <data<413>>.
+    Found 1-bit register for signal <data<412>>.
+    Found 1-bit register for signal <data<411>>.
+    Found 1-bit register for signal <data<410>>.
+    Found 1-bit register for signal <data<409>>.
+    Found 1-bit register for signal <data<408>>.
+    Found 1-bit register for signal <data<407>>.
+    Found 1-bit register for signal <data<406>>.
+    Found 1-bit register for signal <data<405>>.
+    Found 1-bit register for signal <data<404>>.
+    Found 1-bit register for signal <data<403>>.
+    Found 1-bit register for signal <data<402>>.
+    Found 1-bit register for signal <data<401>>.
+    Found 1-bit register for signal <data<400>>.
+    Found 1-bit register for signal <data<399>>.
+    Found 1-bit register for signal <data<398>>.
+    Found 1-bit register for signal <data<397>>.
+    Found 1-bit register for signal <data<396>>.
+    Found 1-bit register for signal <data<395>>.
+    Found 1-bit register for signal <data<394>>.
+    Found 1-bit register for signal <data<393>>.
+    Found 1-bit register for signal <data<392>>.
+    Found 1-bit register for signal <data<391>>.
+    Found 1-bit register for signal <data<390>>.
+    Found 1-bit register for signal <data<389>>.
+    Found 1-bit register for signal <data<388>>.
+    Found 1-bit register for signal <data<387>>.
+    Found 1-bit register for signal <data<386>>.
+    Found 1-bit register for signal <data<385>>.
+    Found 1-bit register for signal <data<384>>.
+    Found 1-bit register for signal <data<383>>.
+    Found 1-bit register for signal <data<382>>.
+    Found 1-bit register for signal <data<381>>.
+    Found 1-bit register for signal <data<380>>.
+    Found 1-bit register for signal <data<379>>.
+    Found 1-bit register for signal <data<378>>.
+    Found 1-bit register for signal <data<377>>.
+    Found 1-bit register for signal <data<376>>.
+    Found 1-bit register for signal <data<375>>.
+    Found 1-bit register for signal <data<374>>.
+    Found 1-bit register for signal <data<373>>.
+    Found 1-bit register for signal <data<372>>.
+    Found 1-bit register for signal <data<371>>.
+    Found 1-bit register for signal <data<370>>.
+    Found 1-bit register for signal <data<369>>.
+    Found 1-bit register for signal <data<368>>.
+    Found 1-bit register for signal <data<367>>.
+    Found 1-bit register for signal <data<366>>.
+    Found 1-bit register for signal <data<365>>.
+    Found 1-bit register for signal <data<364>>.
+    Found 1-bit register for signal <data<363>>.
+    Found 1-bit register for signal <data<362>>.
+    Found 1-bit register for signal <data<361>>.
+    Found 1-bit register for signal <data<360>>.
+    Found 1-bit register for signal <data<359>>.
+    Found 1-bit register for signal <data<358>>.
+    Found 1-bit register for signal <data<357>>.
+    Found 1-bit register for signal <data<356>>.
+    Found 1-bit register for signal <data<355>>.
+    Found 1-bit register for signal <data<354>>.
+    Found 1-bit register for signal <data<353>>.
+    Found 1-bit register for signal <data<352>>.
+    Found 1-bit register for signal <data<351>>.
+    Found 1-bit register for signal <data<350>>.
+    Found 1-bit register for signal <data<349>>.
+    Found 1-bit register for signal <data<348>>.
+    Found 1-bit register for signal <data<347>>.
+    Found 1-bit register for signal <data<346>>.
+    Found 1-bit register for signal <data<345>>.
+    Found 1-bit register for signal <data<344>>.
+    Found 1-bit register for signal <data<343>>.
+    Found 1-bit register for signal <data<342>>.
+    Found 1-bit register for signal <data<341>>.
+    Found 1-bit register for signal <data<340>>.
+    Found 1-bit register for signal <data<339>>.
+    Found 1-bit register for signal <data<338>>.
+    Found 1-bit register for signal <data<337>>.
+    Found 1-bit register for signal <data<336>>.
+    Found 1-bit register for signal <data<335>>.
+    Found 1-bit register for signal <data<334>>.
+    Found 1-bit register for signal <data<333>>.
+    Found 1-bit register for signal <data<332>>.
+    Found 1-bit register for signal <data<331>>.
+    Found 1-bit register for signal <data<330>>.
+    Found 1-bit register for signal <data<329>>.
+    Found 1-bit register for signal <data<328>>.
+    Found 1-bit register for signal <data<327>>.
+    Found 1-bit register for signal <data<326>>.
+    Found 1-bit register for signal <data<325>>.
+    Found 1-bit register for signal <data<324>>.
+    Found 1-bit register for signal <data<323>>.
+    Found 1-bit register for signal <data<322>>.
+    Found 1-bit register for signal <data<321>>.
+    Found 1-bit register for signal <data<320>>.
+    Found 1-bit register for signal <data<319>>.
+    Found 1-bit register for signal <data<318>>.
+    Found 1-bit register for signal <data<317>>.
+    Found 1-bit register for signal <data<316>>.
+    Found 1-bit register for signal <data<315>>.
+    Found 1-bit register for signal <data<314>>.
+    Found 1-bit register for signal <data<313>>.
+    Found 1-bit register for signal <data<312>>.
+    Found 1-bit register for signal <data<311>>.
+    Found 1-bit register for signal <data<310>>.
+    Found 1-bit register for signal <data<309>>.
+    Found 1-bit register for signal <data<308>>.
+    Found 1-bit register for signal <data<307>>.
+    Found 1-bit register for signal <data<306>>.
+    Found 1-bit register for signal <data<305>>.
+    Found 1-bit register for signal <data<304>>.
+    Found 1-bit register for signal <data<303>>.
+    Found 1-bit register for signal <data<302>>.
+    Found 1-bit register for signal <data<301>>.
+    Found 1-bit register for signal <data<300>>.
+    Found 1-bit register for signal <data<299>>.
+    Found 1-bit register for signal <data<298>>.
+    Found 1-bit register for signal <data<297>>.
+    Found 1-bit register for signal <data<296>>.
+    Found 1-bit register for signal <data<295>>.
+    Found 1-bit register for signal <data<294>>.
+    Found 1-bit register for signal <data<293>>.
+    Found 1-bit register for signal <data<292>>.
+    Found 1-bit register for signal <data<291>>.
+    Found 1-bit register for signal <data<290>>.
+    Found 1-bit register for signal <data<289>>.
+    Found 1-bit register for signal <data<288>>.
+    Found 1-bit register for signal <data<287>>.
+    Found 1-bit register for signal <data<286>>.
+    Found 1-bit register for signal <data<285>>.
+    Found 1-bit register for signal <data<284>>.
+    Found 1-bit register for signal <data<283>>.
+    Found 1-bit register for signal <data<282>>.
+    Found 1-bit register for signal <data<281>>.
+    Found 1-bit register for signal <data<280>>.
+    Found 1-bit register for signal <data<279>>.
+    Found 1-bit register for signal <data<278>>.
+    Found 1-bit register for signal <data<277>>.
+    Found 1-bit register for signal <data<276>>.
+    Found 1-bit register for signal <data<275>>.
+    Found 1-bit register for signal <data<274>>.
+    Found 1-bit register for signal <data<273>>.
+    Found 1-bit register for signal <data<272>>.
+    Found 1-bit register for signal <data<271>>.
+    Found 1-bit register for signal <data<270>>.
+    Found 1-bit register for signal <data<269>>.
+    Found 1-bit register for signal <data<268>>.
+    Found 1-bit register for signal <data<267>>.
+    Found 1-bit register for signal <data<266>>.
+    Found 1-bit register for signal <data<265>>.
+    Found 1-bit register for signal <data<264>>.
+    Found 1-bit register for signal <data<263>>.
+    Found 1-bit register for signal <data<262>>.
+    Found 1-bit register for signal <data<261>>.
+    Found 1-bit register for signal <data<260>>.
+    Found 1-bit register for signal <data<259>>.
+    Found 1-bit register for signal <data<258>>.
+    Found 1-bit register for signal <data<257>>.
+    Found 1-bit register for signal <data<256>>.
+    Found 1-bit register for signal <data<255>>.
+    Found 1-bit register for signal <data<254>>.
+    Found 1-bit register for signal <data<253>>.
+    Found 1-bit register for signal <data<252>>.
+    Found 1-bit register for signal <data<251>>.
+    Found 1-bit register for signal <data<250>>.
+    Found 1-bit register for signal <data<249>>.
+    Found 1-bit register for signal <data<248>>.
+    Found 1-bit register for signal <data<247>>.
+    Found 1-bit register for signal <data<246>>.
+    Found 1-bit register for signal <data<245>>.
+    Found 1-bit register for signal <data<244>>.
+    Found 1-bit register for signal <data<243>>.
+    Found 1-bit register for signal <data<242>>.
+    Found 1-bit register for signal <data<241>>.
+    Found 1-bit register for signal <data<240>>.
+    Found 1-bit register for signal <data<239>>.
+    Found 1-bit register for signal <data<238>>.
+    Found 1-bit register for signal <data<237>>.
+    Found 1-bit register for signal <data<236>>.
+    Found 1-bit register for signal <data<235>>.
+    Found 1-bit register for signal <data<234>>.
+    Found 1-bit register for signal <data<233>>.
+    Found 1-bit register for signal <data<232>>.
+    Found 1-bit register for signal <data<231>>.
+    Found 1-bit register for signal <data<230>>.
+    Found 1-bit register for signal <data<229>>.
+    Found 1-bit register for signal <data<228>>.
+    Found 1-bit register for signal <data<227>>.
+    Found 1-bit register for signal <data<226>>.
+    Found 1-bit register for signal <data<225>>.
+    Found 1-bit register for signal <data<224>>.
+    Found 1-bit register for signal <data<223>>.
+    Found 1-bit register for signal <data<222>>.
+    Found 1-bit register for signal <data<221>>.
+    Found 1-bit register for signal <data<220>>.
+    Found 1-bit register for signal <data<219>>.
+    Found 1-bit register for signal <data<218>>.
+    Found 1-bit register for signal <data<217>>.
+    Found 1-bit register for signal <data<216>>.
+    Found 1-bit register for signal <data<215>>.
+    Found 1-bit register for signal <data<214>>.
+    Found 1-bit register for signal <data<213>>.
+    Found 1-bit register for signal <data<212>>.
+    Found 1-bit register for signal <data<211>>.
+    Found 1-bit register for signal <data<210>>.
+    Found 1-bit register for signal <data<209>>.
+    Found 1-bit register for signal <data<208>>.
+    Found 1-bit register for signal <data<207>>.
+    Found 1-bit register for signal <data<206>>.
+    Found 1-bit register for signal <data<205>>.
+    Found 1-bit register for signal <data<204>>.
+    Found 1-bit register for signal <data<203>>.
+    Found 1-bit register for signal <data<202>>.
+    Found 1-bit register for signal <data<201>>.
+    Found 1-bit register for signal <data<200>>.
+    Found 1-bit register for signal <data<199>>.
+    Found 1-bit register for signal <data<198>>.
+    Found 1-bit register for signal <data<197>>.
+    Found 1-bit register for signal <data<196>>.
+    Found 1-bit register for signal <data<195>>.
+    Found 1-bit register for signal <data<194>>.
+    Found 1-bit register for signal <data<193>>.
+    Found 1-bit register for signal <data<192>>.
+    Found 1-bit register for signal <data<191>>.
+    Found 1-bit register for signal <data<190>>.
+    Found 1-bit register for signal <data<189>>.
+    Found 1-bit register for signal <data<188>>.
+    Found 1-bit register for signal <data<187>>.
+    Found 1-bit register for signal <data<186>>.
+    Found 1-bit register for signal <data<185>>.
+    Found 1-bit register for signal <data<184>>.
+    Found 1-bit register for signal <data<183>>.
+    Found 1-bit register for signal <data<182>>.
+    Found 1-bit register for signal <data<181>>.
+    Found 1-bit register for signal <data<180>>.
+    Found 1-bit register for signal <data<179>>.
+    Found 1-bit register for signal <data<178>>.
+    Found 1-bit register for signal <data<177>>.
+    Found 1-bit register for signal <data<176>>.
+    Found 1-bit register for signal <data<175>>.
+    Found 1-bit register for signal <data<174>>.
+    Found 1-bit register for signal <data<173>>.
+    Found 1-bit register for signal <data<172>>.
+    Found 1-bit register for signal <data<171>>.
+    Found 1-bit register for signal <data<170>>.
+    Found 1-bit register for signal <data<169>>.
+    Found 1-bit register for signal <data<168>>.
+    Found 1-bit register for signal <data<167>>.
+    Found 1-bit register for signal <data<166>>.
+    Found 1-bit register for signal <data<165>>.
+    Found 1-bit register for signal <data<164>>.
+    Found 1-bit register for signal <data<163>>.
+    Found 1-bit register for signal <data<162>>.
+    Found 1-bit register for signal <data<161>>.
+    Found 1-bit register for signal <data<160>>.
+    Found 1-bit register for signal <data<159>>.
+    Found 1-bit register for signal <data<158>>.
+    Found 1-bit register for signal <data<157>>.
+    Found 1-bit register for signal <data<156>>.
+    Found 1-bit register for signal <data<155>>.
+    Found 1-bit register for signal <data<154>>.
+    Found 1-bit register for signal <data<153>>.
+    Found 1-bit register for signal <data<152>>.
+    Found 1-bit register for signal <data<151>>.
+    Found 1-bit register for signal <data<150>>.
+    Found 1-bit register for signal <data<149>>.
+    Found 1-bit register for signal <data<148>>.
+    Found 1-bit register for signal <data<147>>.
+    Found 1-bit register for signal <data<146>>.
+    Found 1-bit register for signal <data<145>>.
+    Found 1-bit register for signal <data<144>>.
+    Found 1-bit register for signal <data<143>>.
+    Found 1-bit register for signal <data<142>>.
+    Found 1-bit register for signal <data<141>>.
+    Found 1-bit register for signal <data<140>>.
+    Found 1-bit register for signal <data<139>>.
+    Found 1-bit register for signal <data<138>>.
+    Found 1-bit register for signal <data<137>>.
+    Found 1-bit register for signal <data<136>>.
+    Found 1-bit register for signal <data<135>>.
+    Found 1-bit register for signal <data<134>>.
+    Found 1-bit register for signal <data<133>>.
+    Found 1-bit register for signal <data<132>>.
+    Found 1-bit register for signal <data<131>>.
+    Found 1-bit register for signal <data<130>>.
+    Found 1-bit register for signal <data<129>>.
+    Found 1-bit register for signal <data<128>>.
+    Found 1-bit register for signal <data<127>>.
+    Found 1-bit register for signal <data<126>>.
+    Found 1-bit register for signal <data<125>>.
+    Found 1-bit register for signal <data<124>>.
+    Found 1-bit register for signal <data<123>>.
+    Found 1-bit register for signal <data<122>>.
+    Found 1-bit register for signal <data<121>>.
+    Found 1-bit register for signal <data<120>>.
+    Found 1-bit register for signal <data<119>>.
+    Found 1-bit register for signal <data<118>>.
+    Found 1-bit register for signal <data<117>>.
+    Found 1-bit register for signal <data<116>>.
+    Found 1-bit register for signal <data<115>>.
+    Found 1-bit register for signal <data<114>>.
+    Found 1-bit register for signal <data<113>>.
+    Found 1-bit register for signal <data<112>>.
+    Found 1-bit register for signal <data<111>>.
+    Found 1-bit register for signal <data<110>>.
+    Found 1-bit register for signal <data<109>>.
+    Found 1-bit register for signal <data<108>>.
+    Found 1-bit register for signal <data<107>>.
+    Found 1-bit register for signal <data<106>>.
+    Found 1-bit register for signal <data<105>>.
+    Found 1-bit register for signal <data<104>>.
+    Found 1-bit register for signal <data<103>>.
+    Found 1-bit register for signal <data<102>>.
+    Found 1-bit register for signal <data<101>>.
+    Found 1-bit register for signal <data<100>>.
+    Found 1-bit register for signal <data<99>>.
+    Found 1-bit register for signal <data<98>>.
+    Found 1-bit register for signal <data<97>>.
+    Found 1-bit register for signal <data<96>>.
+    Found 1-bit register for signal <data<95>>.
+    Found 1-bit register for signal <data<94>>.
+    Found 1-bit register for signal <data<93>>.
+    Found 1-bit register for signal <data<92>>.
+    Found 1-bit register for signal <data<91>>.
+    Found 1-bit register for signal <data<90>>.
+    Found 1-bit register for signal <data<89>>.
+    Found 1-bit register for signal <data<88>>.
+    Found 1-bit register for signal <data<87>>.
+    Found 1-bit register for signal <data<86>>.
+    Found 1-bit register for signal <data<85>>.
+    Found 1-bit register for signal <data<84>>.
+    Found 1-bit register for signal <data<83>>.
+    Found 1-bit register for signal <data<82>>.
+    Found 1-bit register for signal <data<81>>.
+    Found 1-bit register for signal <data<80>>.
+    Found 1-bit register for signal <data<79>>.
+    Found 1-bit register for signal <data<78>>.
+    Found 1-bit register for signal <data<77>>.
+    Found 1-bit register for signal <data<76>>.
+    Found 1-bit register for signal <data<75>>.
+    Found 1-bit register for signal <data<74>>.
+    Found 1-bit register for signal <data<73>>.
+    Found 1-bit register for signal <data<72>>.
+    Found 1-bit register for signal <data<71>>.
+    Found 1-bit register for signal <data<70>>.
+    Found 1-bit register for signal <data<69>>.
+    Found 1-bit register for signal <data<68>>.
+    Found 1-bit register for signal <data<67>>.
+    Found 1-bit register for signal <data<66>>.
+    Found 1-bit register for signal <data<65>>.
+    Found 1-bit register for signal <data<64>>.
+    Found 1-bit register for signal <data<63>>.
+    Found 1-bit register for signal <data<62>>.
+    Found 1-bit register for signal <data<61>>.
+    Found 1-bit register for signal <data<60>>.
+    Found 1-bit register for signal <data<59>>.
+    Found 1-bit register for signal <data<58>>.
+    Found 1-bit register for signal <data<57>>.
+    Found 1-bit register for signal <data<56>>.
+    Found 1-bit register for signal <data<55>>.
+    Found 1-bit register for signal <data<54>>.
+    Found 1-bit register for signal <data<53>>.
+    Found 1-bit register for signal <data<52>>.
+    Found 1-bit register for signal <data<51>>.
+    Found 1-bit register for signal <data<50>>.
+    Found 1-bit register for signal <data<49>>.
+    Found 1-bit register for signal <data<48>>.
+    Found 1-bit register for signal <data<47>>.
+    Found 1-bit register for signal <data<46>>.
+    Found 1-bit register for signal <data<45>>.
+    Found 1-bit register for signal <data<44>>.
+    Found 1-bit register for signal <data<43>>.
+    Found 1-bit register for signal <data<42>>.
+    Found 1-bit register for signal <data<41>>.
+    Found 1-bit register for signal <data<40>>.
+    Found 1-bit register for signal <data<39>>.
+    Found 1-bit register for signal <data<38>>.
+    Found 1-bit register for signal <data<37>>.
+    Found 1-bit register for signal <data<36>>.
+    Found 1-bit register for signal <data<35>>.
+    Found 1-bit register for signal <data<34>>.
+    Found 1-bit register for signal <data<33>>.
+    Found 1-bit register for signal <data<32>>.
+    Found 1-bit register for signal <data<31>>.
+    Found 1-bit register for signal <data<30>>.
+    Found 1-bit register for signal <data<29>>.
+    Found 1-bit register for signal <data<28>>.
+    Found 1-bit register for signal <data<27>>.
+    Found 1-bit register for signal <data<26>>.
+    Found 1-bit register for signal <data<25>>.
+    Found 1-bit register for signal <data<24>>.
+    Found 1-bit register for signal <data<23>>.
+    Found 1-bit register for signal <data<22>>.
+    Found 1-bit register for signal <data<21>>.
+    Found 1-bit register for signal <data<20>>.
+    Found 1-bit register for signal <data<19>>.
+    Found 1-bit register for signal <data<18>>.
+    Found 1-bit register for signal <data<17>>.
+    Found 1-bit register for signal <data<16>>.
+    Found 1-bit register for signal <data<15>>.
+    Found 1-bit register for signal <data<14>>.
+    Found 1-bit register for signal <data<13>>.
+    Found 1-bit register for signal <data<12>>.
+    Found 1-bit register for signal <data<11>>.
+    Found 1-bit register for signal <data<10>>.
+    Found 1-bit register for signal <data<9>>.
+    Found 1-bit register for signal <data<8>>.
+    Found 1-bit register for signal <data<7>>.
+    Found 1-bit register for signal <data<6>>.
+    Found 1-bit register for signal <data<5>>.
+    Found 1-bit register for signal <data<4>>.
+    Found 1-bit register for signal <data<3>>.
+    Found 1-bit register for signal <data<2>>.
+    Found 1-bit register for signal <data<1>>.
+    Found 1-bit register for signal <data<0>>.
+    Found 1-bit register for signal <clkOut>.
+    Found 32-bit register for signal <counterOut>.
+    Found 13-bit register for signal <dataOut>.
+    Found 32-bit register for signal <counterIn>.
+    Found 32-bit adder for signal <counterIn[31]_GND_1_o_add_1_OUT> created at line 36.
+    Found 32-bit adder for signal <counterOut[31]_GND_1_o_add_27_OUT> created at line 66.
+    Found 507-bit 15-to-1 multiplexer for signal <_n0766> created at line 39.
+    Found 32-bit comparator greater for signal <counterIn[31]_GND_1_o_LessThan_3_o> created at line 37
+    Found 32-bit comparator greater for signal <counterIn[31]_GND_1_o_LessThan_5_o> created at line 38
+    Found 32-bit comparator greater for signal <counterOut[31]_GND_1_o_LessThan_29_o> created at line 67
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 617 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  34 Multiplexer(s).
+Unit <unserial39x13> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 6
+ 1-bit register                                        : 1
+ 13-bit register                                       : 1
+ 32-bit register                                       : 3
+ 507-bit register                                      : 1
+# Comparators                                          : 3
+ 32-bit comparator greater                             : 3
+# Multiplexers                                         : 34
+ 13-bit 2-to-1 multiplexer                             : 31
+ 32-bit 2-to-1 multiplexer                             : 2
+ 507-bit 15-to-1 multiplexer                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <start_31> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_30> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_29> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_28> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_27> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_26> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_25> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_24> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_23> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_22> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_21> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_20> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_19> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_18> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_17> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_16> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_15> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_14> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_13> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_12> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_11> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_10> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_9> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_8> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_7> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_6> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_5> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_4> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_3> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_2> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_1> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 617
+ Flip-Flops                                            : 617
+# Comparators                                          : 3
+ 32-bit comparator greater                             : 3
+# Multiplexers                                         : 34
+ 13-bit 2-to-1 multiplexer                             : 31
+ 32-bit 2-to-1 multiplexer                             : 2
+ 507-bit 15-to-1 multiplexer                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <start_31> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_30> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_29> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_28> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_27> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_26> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_25> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_24> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_23> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_22> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_21> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_20> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_19> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_18> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_17> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_16> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_15> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_14> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_13> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_12> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_11> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_10> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_9> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_8> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_7> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_6> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_5> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_4> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_3> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_2> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <start_1> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <data_390> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_391> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_392> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_393> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_394> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_395> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_396> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_397> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_398> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_399> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_400> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_401> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_402> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_403> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_404> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_405> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_406> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_407> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_408> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_409> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_410> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_411> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_412> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_413> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_414> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_415> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_416> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_417> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_418> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_419> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_420> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_421> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_422> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_423> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_424> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_425> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_426> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_427> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_428> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_429> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_430> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_431> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_432> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_433> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_434> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_435> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_436> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_437> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_438> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_439> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_440> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_441> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_442> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_443> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_444> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_445> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_446> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_447> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_448> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_449> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_450> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_451> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_452> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_453> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_454> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_455> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_456> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_457> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_458> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_459> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_460> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_461> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_462> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_463> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_464> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_465> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_466> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_467> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_468> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_469> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_470> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_471> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_472> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_473> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_474> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_475> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_476> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_477> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_478> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_479> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_480> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_481> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_482> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_483> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_484> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_485> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_486> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_487> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_488> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_489> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_490> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_491> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_492> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_493> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_494> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_495> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_496> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_497> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_498> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_499> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_500> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_501> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_502> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_503> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_504> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_505> of sequential type is unconnected in block <unserial39x13>.
+WARNING:Xst:2677 - Node <data_506> of sequential type is unconnected in block <unserial39x13>.
+
+Optimizing unit <unserial39x13> ...
+WARNING:Xst:1293 - FF/Latch <counterIn_31> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_30> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_29> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_28> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_27> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_26> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_25> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_24> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_23> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_22> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_21> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_20> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_19> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_18> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_17> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_16> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_15> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_14> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_13> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_12> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_11> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_10> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_9> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_8> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_7> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_6> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_5> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counterIn_4> has a constant value of 0 in block <unserial39x13>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block unserial39x13, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 441
+ Flip-Flops                                            : 441
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : unserial39x13.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 842
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 34
+#      LUT2                        : 41
+#      LUT3                        : 158
+#      LUT4                        : 94
+#      LUT5                        : 179
+#      LUT6                        : 235
+#      MUXCY                       : 58
+#      VCC                         : 1
+#      XORCY                       : 37
+# FlipFlops/Latches                : 441
+#      FD                          : 395
+#      FDE                         : 45
+#      FDR                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 54
+#      IBUF                        : 40
+#      OBUF                        : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             440  out of  126800     0%  
+ Number of Slice LUTs:                  745  out of  63400     1%  
+    Number used as Logic:               745  out of  63400     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    747
+   Number with an unused Flip Flop:     307  out of    747    41%  
+   Number with an unused LUT:             2  out of    747     0%  
+   Number of fully used LUT-FF pairs:   438  out of    747    58%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          55
+ Number of bonded IOBs:                  55  out of    210    26%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clkIn                              | BUFGP                  | 395   |
+clkToOut                           | IBUF+BUFG              | 46    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.921ns (Maximum Frequency: 203.206MHz)
+   Minimum input arrival time before clock: 0.841ns
+   Maximum output required time after clock: 0.645ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkIn'
+  Clock period: 4.157ns (frequency: 240.564MHz)
+  Total number of paths / destination ports: 26898 / 395
+-------------------------------------------------------------------------
+Delay:               4.157ns (Levels of Logic = 20)
+  Source:            counterIn_0 (FF)
+  Destination:       start_0 (FF)
+  Source Clock:      clkIn rising
+  Destination Clock: clkIn rising
+
+  Data Path: counterIn_0 to start_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.361   0.279  counterIn_0 (counterIn_0)
+     INV:I->O              1   0.113   0.000  Madd_counterIn[31]_GND_1_o_add_1_OUT_lut<0>_INV_0 (Madd_counterIn[31]_GND_1_o_add_1_OUT_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  Madd_counterIn[31]_GND_1_o_add_1_OUT_cy<0> (Madd_counterIn[31]_GND_1_o_add_1_OUT_cy<0>)
+     XORCY:CI->O          91   0.370   0.799  Madd_counterIn[31]_GND_1_o_add_1_OUT_xor<1> (counterIn[31]_GND_1_o_add_1_OUT<1>)
+     LUT5:I0->O            1   0.097   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_lut<0> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<0> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<1> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<2> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<3> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<4> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<5> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<5>)
+     MUXCY:CI->O         250   0.023   0.435  Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<6> (Mcompar_counterIn[31]_GND_1_o_LessThan_3_o_cy<6>)
+     LUT5:I4->O            1   0.097   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_lut<0> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<0> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<1> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<2> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<3> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<4> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<5> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<6> (Mcompar_counterIn[31]_GND_1_o_LessThan_5_o_cy<6>)
+     MUXCY:CI->O           1   0.262   0.000  start_0_rstpot_cy (start_0_rstpot)
+     FD:D                      0.008          start_0
+    ----------------------------------------
+    Total                      4.157ns (2.643ns logic, 1.514ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkToOut'
+  Clock period: 4.921ns (frequency: 203.206MHz)
+  Total number of paths / destination ports: 109668 / 58
+-------------------------------------------------------------------------
+Delay:               4.921ns (Levels of Logic = 31)
+  Source:            counterOut_0 (FF)
+  Destination:       dataOut_0 (FF)
+  Source Clock:      clkToOut rising
+  Destination Clock: clkToOut rising
+
+  Data Path: counterOut_0 to dataOut_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.361   0.279  counterOut_0 (counterOut_0)
+     INV:I->O              1   0.113   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_lut<0>_INV_0 (Madd_counterOut[31]_GND_1_o_add_27_OUT_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<0> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<1> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<2> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<3> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<4> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<5> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<6> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<7> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<8> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<9> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<10> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<11> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<12> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<13> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<14> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<15> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<16> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<17> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<18> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<19> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<20> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<21> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<22> (Madd_counterOut[31]_GND_1_o_add_27_OUT_cy<22>)
+     XORCY:CI->O           3   0.370   0.693  Madd_counterOut[31]_GND_1_o_add_27_OUT_xor<23> (counterOut[31]_GND_1_o_add_27_OUT<23>)
+     LUT5:I0->O            1   0.097   0.000  Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_lut<4> (Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_lut<4>)
+     MUXCY:S->O            1   0.353   0.000  Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_cy<4> (Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_cy<4>)
+     MUXCY:CI->O          91   0.023   0.411  Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_cy<5> (Mcompar_counterOut[31]_GND_1_o_LessThan_29_o_cy<5>)
+     LUT6:I5->O            1   0.097   0.683  Mmux__n07381014 (Mmux__n07381015)
+     LUT6:I1->O            1   0.097   0.379  Mmux__n07381017 (_n0738<10>)
+     LUT3:I1->O            1   0.097   0.000  dataOut_10_dpot (dataOut_10_dpot)
+     FDE:D                     0.008          dataOut_10
+    ----------------------------------------
+    Total                      4.921ns (2.475ns logic, 2.446ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkIn'
+  Total number of paths / destination ports: 390 / 390
+-------------------------------------------------------------------------
+Offset:              0.841ns (Levels of Logic = 2)
+  Source:            dataIn<0> (PAD)
+  Destination:       data_117 (FF)
+  Destination Clock: clkIn rising
+
+  Data Path: dataIn<0> to data_117
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   0.001   0.735  dataIn_0_IBUF (dataIn_0_IBUF)
+     LUT6:I0->O            1   0.097   0.000  counterIn[31]_data[506]_select_20_OUT<350>1 (counterIn[31]_data[506]_select_20_OUT<156>)
+     FD:D                      0.008          data_156
+    ----------------------------------------
+    Total                      0.841ns (0.106ns logic, 0.735ns route)
+                                       (12.6% logic, 87.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkToOut'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.288ns (Levels of Logic = 1)
+  Source:            clkToOut (PAD)
+  Destination:       clkOut (FF)
+  Destination Clock: clkToOut rising
+
+  Data Path: clkToOut to clkOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.279  clkToOut_IBUF (clkToOut_IBUF)
+     FDR:D                     0.008          clkOut
+    ----------------------------------------
+    Total                      0.288ns (0.009ns logic, 0.279ns route)
+                                       (3.1% logic, 96.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkToOut'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              0.645ns (Levels of Logic = 1)
+  Source:            dataOut_12 (FF)
+  Destination:       dataOut<12> (PAD)
+  Source Clock:      clkToOut rising
+
+  Data Path: dataOut_12 to dataOut<12>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.361   0.283  dataOut_12 (dataOut_12)
+     OBUF:I->O                 0.000          dataOut_12_OBUF (dataOut<12>)
+    ----------------------------------------
+    Total                      0.645ns (0.361ns logic, 0.283ns route)
+                                       (56.0% logic, 44.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clkIn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkIn          |    4.157|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clkToOut
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkIn          |    3.455|         |         |         |
+clkToOut       |    4.921|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 37.83 secs
+ 
+--> 
+
+Total memory usage is 4743692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  207 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

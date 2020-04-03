@@ -1,0 +1,341 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> Reading design: mux_13_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mux_13_1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mux_13_1"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mux_13_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Windows\System32\mux13-1\mux_13_1.v" into library work
+Parsing module <mux_13_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mux_13_1>.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 28: Signal <d0> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 29: Signal <d1> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 30: Signal <d2> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 31: Signal <d3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 32: Signal <d4> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 33: Signal <d5> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 34: Signal <d6> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 35: Signal <d7> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 36: Signal <d8> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 37: Signal <d9> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 38: Signal <d10> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 39: Signal <d11> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Windows\System32\mux13-1\mux_13_1.v" Line 40: Signal <d12> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mux_13_1>.
+    Related source file is "C:\Windows\System32\mux13-1\mux_13_1.v".
+    Found 1-bit 13-to-1 multiplexer for signal <sel[3]_out_Mux_1_o> created at line 27.
+WARNING:Xst:737 - Found 1-bit latch for signal <out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+	inferred   1 Multiplexer(s).
+Unit <mux_13_1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 1-bit 13-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 1
+ 1-bit 13-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mux_13_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mux_13_1, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mux_13_1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5
+#      LUT4                        : 1
+#      LUT6                        : 4
+# FlipFlops/Latches                : 1
+#      LD                          : 1
+# IO Buffers                       : 18
+#      IBUF                        : 17
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                    5  out of  63400     0%  
+    Number used as Logic:                 5  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      5
+   Number with an unused Flip Flop:       5  out of      5   100%  
+   Number with an unused LUT:             0  out of      5     0%  
+   Number of fully used LUT-FF pairs:     0  out of      5     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    210     8%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------+------------------------+-------+
+Clock Signal                                     | Clock buffer(FF name)  | Load  |
+-------------------------------------------------+------------------------+-------+
+sel[3]_GND_2_o_Mux_2_o(sel[3]_GND_2_o_Mux_2_o1:O)| NONE(*)(out)           | 1     |
+-------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.459ns
+   Maximum output required time after clock: 0.751ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel[3]_GND_2_o_Mux_2_o'
+  Total number of paths / destination ports: 21 / 1
+-------------------------------------------------------------------------
+Offset:              1.459ns (Levels of Logic = 3)
+  Source:            sel<1> (PAD)
+  Destination:       out (LATCH)
+  Destination Clock: sel[3]_GND_2_o_Mux_2_o falling
+
+  Data Path: sel<1> to out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.001   0.707  sel_1_IBUF (sel_1_IBUF)
+     LUT6:I0->O            1   0.097   0.556  Mmux_sel[3]_out_Mux_1_o_7 (Mmux_sel[3]_out_Mux_1_o_7)
+     LUT6:I2->O            1   0.097   0.000  sel<3>1 (sel[3]_out_Mux_1_o)
+     LD:D                     -0.028          out
+    ----------------------------------------
+    Total                      1.459ns (0.195ns logic, 1.264ns route)
+                                       (13.4% logic, 86.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel[3]_GND_2_o_Mux_2_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.751ns (Levels of Logic = 1)
+  Source:            out (LATCH)
+  Destination:       out (PAD)
+  Source Clock:      sel[3]_GND_2_o_Mux_2_o falling
+
+  Data Path: out to out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.472   0.279  out (out_OBUF)
+     OBUF:I->O                 0.000          out_OBUF (out)
+    ----------------------------------------
+    Total                      0.751ns (0.472ns logic, 0.279ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.73 secs
+ 
+--> 
+
+Total memory usage is 4683852 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

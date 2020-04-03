@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Windows/System32/thdl/ttrig.xst" -ofn "C:/Windows/System32/thdl/ttrig.syr" 

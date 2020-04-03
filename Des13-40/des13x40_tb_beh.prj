@@ -1,0 +1,3 @@
+verilog work "des13x40.v"
+verilog work "des13x40_tb.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

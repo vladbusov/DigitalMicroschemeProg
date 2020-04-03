@@ -1,0 +1,3 @@
+verilog isim_temp "des13x40.v"
+verilog isim_temp "des13x40_tb.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

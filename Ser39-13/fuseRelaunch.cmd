@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Windows/System32/Ser39-13/unserial39x13tb_isim_beh.exe" -prj "C:/Windows/System32/Ser39-13/unserial39x13tb_beh.prj" "work.unserial39x13tb" "work.glbl" 

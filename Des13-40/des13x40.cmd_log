@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Windows/System32/Des13-40/des13x40.xst" -ofn "C:/Windows/System32/Des13-40/des13x40.syr" 
